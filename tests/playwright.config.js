@@ -1,5 +1,4 @@
 const{test, expect} = require('@playwright/test');
-const{test, expect} = require('@playwright');
 
 const config = {
     use:{
@@ -7,7 +6,7 @@ const config = {
         extraHTTPHeaders:{
             'Accept': 'application/vnd.github.v3+json',
 
-            'Authorization': `token ${process.env.API_TOKEN}`,
+            'Authorization': 'token  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',
         },
     }
 };
